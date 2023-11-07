@@ -10,4 +10,5 @@ RUN npm install
 COPY . .
 
 RUN npm run compile
+RUN npm run copydata
 CMD [ "npm", "run", "start-docker" ]

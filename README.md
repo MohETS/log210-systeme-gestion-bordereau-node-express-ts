@@ -30,7 +30,7 @@ voir https://medium.com/@RupaniChirag/writing-unit-tests-in-typescript-d4719b8a0
 - Création de votre image docker
   - docker build -t sgb --file Dockerfile .
 - Exécuter votre image docker
-  - docker run -p 3200:3200 sgb
+  - docker run --name SGB -p 3200:3200 sgb
 
 ## définition de l'API
 ```
